@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    </head>
+    <body>
+        <form>
+            <h1>Please fill out the following form</h1>
+            
+            <fieldset>
+                <label for="name-input">Name:</label><br>
+                <input placeholder="Name..." type="text" name="name-input" id="name-input" required><br>
+
+                <label for="email-input">Email:</label><br>
+                <input placeholder="name@example.com" type="email" name="email-input" id="email-input" required><br>
+
+                <label for="age-input">Age:</label><br>
+                <input placeholder="age..." type="number" name="age-input" id="age-input" min="1" max="120"><br>
+            </fieldset>
+
+            <label for="user-msg">Message:</label><br>
+            <textarea id="user-msg", name="user-msg", rows="6" cols="10"></textarea><br>
+
+            <select name="topics" id="topics">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+            </select><br>
+
+            <p> Select your preferred contact method</p>
+            <input type="radio" name="contact-method" id="contact-method-email">
+            <label for="contact-method-email">Email</label>
+            <input type="radio" name="contact-method" id="contact-method-phone">
+            <label for="contact-method-phone">Phone</label><br>
+
+            <!-- <button type="submit">Submit</button> -->
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
