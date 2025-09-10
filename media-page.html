@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Media</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <img src="download.png" alt="Google image">
+        <img src="mozilla.jpeg" alt="Mozilla image">
+
+        <picture>
+            <source media="(min-width:1000px)" srcset="download.jpg">
+            <source media="(min-width:800px)" srcset="html.jpeg">
+            <img src="download.png" alt="Google icon">
+        </picture>
+
+        <video width="300" height="180" controls>
+            <source src="5837601-uhd_3840_2160_24fps.mp4" type="video/mp4">
+            <source src="5837601-uhd_3840_2160_24fps.ogg" type="video/ogg">
+            This video can't be displayed on your browser
+        </video>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ud5hLMsOYyM?si=g32wy_ImoJMjxGRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24386.40539233668!2d44.51989269999999!3d40.1801216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sam!4v1757490355434!5m2!1sen!2sam" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </body>
+</html>
